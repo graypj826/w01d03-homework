@@ -145,5 +145,24 @@ thomsOutfit3.push(thomsCloset[2][1], thomsCloset[0][0], thomsCloset[1][2]);
 
 console.log(`Thom's third outfit tonight will be a ${thomsOutfit3[0]}, a ${thomsOutfit3[1]}, and ${thomsOutfit3[2]}`)
 
+//Dirty Laundry
+
+for (let i = 0; i < kristynsCloset.length; i++){
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+
+//inventory
+
+const thomsClothesInventory = {
+	thomsShirts: [thomsCloset[0][0], thomsCloset[0][1], thomsCloset [0][2], thomsCloset [0][3]],
+	thomsPants: [thomsCloset[1][0], thomsCloset[1][1], thomsCloset [1][2]],
+	thomsAccessories: [thomsCloset[2][0], thomsCloset[2][1], thomsCloset [2][2]],
+}
+
+console.log(thomsClothesInventory);
+
+//I'm not sure if the above was how you wanted it to be done...
+
+
 
 
