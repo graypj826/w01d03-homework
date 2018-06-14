@@ -58,3 +58,12 @@ console.log(matt);
 kristyn[2] = "Brooklyn";
 console.log(kristyn);
 
+// Yell at Ninja Turtles
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for(let i = 0; i < ninjaTurtles.length; i++){
+	console.log(ninjaTurtles[i].toUpperCase());
+}
+
+
