@@ -41,3 +41,20 @@ if((i%3===0) && (i%5===0)){
 } else {
 	console.log(i)
 }
+
+//getting to know you
+
+const thom = ["Thom",1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+
+thom[0] = "Gameboy";
+console.log(thom)
+karolin[1] = 17;
+console.log(karolin)
+matt[2] = "Gotham City";
+console.log(matt);
+kristyn[2] = "Brooklyn";
+console.log(kristyn);
+
