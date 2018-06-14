@@ -164,5 +164,42 @@ console.log(thomsClothesInventory);
 //I'm not sure if the above was how you wanted it to be done...
 
 
+//Multiples of 3 and 5
+
+let sumOfMultiplesOfThree = 0;
+let sumOfMultiplesOfFive = 0;
+
+const MultiplesOfThree = [];
+const MultiplesOfFive = [];
+
+for (let i=0; i < 1001; i++){
+
+if (i%3===0){
+	sumOfMultiplesOfThree += i;
+  MultiplesOfThree.push(i);
+} else if (i%5===0){
+	sumOfMultiplesOfFive += i;
+  MultiplesOfFive.push(i);
+} else {
+	console.log(i) //to see if it was counting to 1000.
+}
+}
+
+
+console.log(sumOfMultiplesOfThree);
+console.log(sumOfMultiplesOfFive);
+console.log(MultiplesOfThree);
+console.log(MultiplesOfFive);
+
+let sumOfMultiplesOfThreeAndFive = sumOfMultiplesOfThree + sumOfMultiplesOfFive;
+
+console.log(sumOfMultiplesOfThreeAndFive);
+
+//I wasn't sure if I was supposed to add the mulitples of three and five together, so I did that as a last minute addition. I'm not certain why it is also including undefined.
+
+
+
+
+
 
 
